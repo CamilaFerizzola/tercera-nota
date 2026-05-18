@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ejercicio2par {
 public static void main(String[] args) {
     int numstud; 
-    String clasificacion = "";
     Scanner sc = new Scanner(System.in);
     System.out.println("ingrese la cantidad de estudiantes : ");
     numstud = sc.nextInt();

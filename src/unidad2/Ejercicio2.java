@@ -1,5 +1,6 @@
 package unidad2;
 import java.util.Scanner;
+
 public class Ejercicio2 {
 
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class Ejercicio2 {
         Scanner scanner = new Scanner(System.in);
 
         int numEmpleados;
-        double sueldo;
+        int sueldo = 0;
         int empleados300 = 0;
         int empleadosMas300 = 0;
         double gastoTotal = 0;
@@ -20,7 +21,7 @@ public class Ejercicio2 {
         for (int i = 1; i <= numEmpleados; i++) {
 
             System.out.print("Ingrese el sueldo del empleado " + i + ": ");
-            sueldo = scanner.nextDouble();
+            sueldo = scanner.nextInt();
 
             if (sueldo >= 100 && sueldo <= 300) {
                 empleados300++;
